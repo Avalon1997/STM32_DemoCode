@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"forblog\startup_stm32f103xe.o"
+"forblog\s_iic.o"
+"forblog\main.o"
+"forblog\gpio.o"
+"forblog\dma.o"
+"forblog\usart.o"
+"forblog\stm32f1xx_it.o"
+"forblog\stm32f1xx_hal_msp.o"
+"forblog\stm32f1xx_hal_gpio_ex.o"
+"forblog\stm32f1xx_hal_tim.o"
+"forblog\stm32f1xx_hal_tim_ex.o"
+"forblog\stm32f1xx_hal_uart.o"
+"forblog\stm32f1xx_hal.o"
+"forblog\stm32f1xx_hal_rcc.o"
+"forblog\stm32f1xx_hal_rcc_ex.o"
+"forblog\stm32f1xx_hal_gpio.o"
+"forblog\stm32f1xx_hal_dma.o"
+"forblog\stm32f1xx_hal_cortex.o"
+"forblog\stm32f1xx_hal_pwr.o"
+"forblog\stm32f1xx_hal_flash.o"
+"forblog\stm32f1xx_hal_flash_ex.o"
+"forblog\stm32f1xx_hal_exti.o"
+"forblog\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "ForBlog\ForBlog.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ForBlog.map" -o ForBlog\ForBlog.axf

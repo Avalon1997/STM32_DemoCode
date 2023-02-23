@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "usart.h": "c",
+        "cstdio": "c"
+    }
+}

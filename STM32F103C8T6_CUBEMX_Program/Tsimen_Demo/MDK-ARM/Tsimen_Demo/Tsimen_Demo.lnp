@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"tsimen_demo\startup_stm32f103xb.o"
+"tsimen_demo\main.o"
+"tsimen_demo\gpio.o"
+"tsimen_demo\tim.o"
+"tsimen_demo\usart.o"
+"tsimen_demo\stm32f1xx_it.o"
+"tsimen_demo\stm32f1xx_hal_msp.o"
+"tsimen_demo\stm32f1xx_hal_gpio_ex.o"
+"tsimen_demo\stm32f1xx_hal_tim.o"
+"tsimen_demo\stm32f1xx_hal_tim_ex.o"
+"tsimen_demo\stm32f1xx_hal.o"
+"tsimen_demo\stm32f1xx_hal_rcc.o"
+"tsimen_demo\stm32f1xx_hal_rcc_ex.o"
+"tsimen_demo\stm32f1xx_hal_gpio.o"
+"tsimen_demo\stm32f1xx_hal_dma.o"
+"tsimen_demo\stm32f1xx_hal_cortex.o"
+"tsimen_demo\stm32f1xx_hal_pwr.o"
+"tsimen_demo\stm32f1xx_hal_flash.o"
+"tsimen_demo\stm32f1xx_hal_flash_ex.o"
+"tsimen_demo\stm32f1xx_hal_exti.o"
+"tsimen_demo\stm32f1xx_hal_uart.o"
+"tsimen_demo\system_stm32f1xx.o"
+--strict --scatter "Tsimen_Demo\Tsimen_Demo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Tsimen_Demo.map" -o Tsimen_Demo\Tsimen_Demo.axf

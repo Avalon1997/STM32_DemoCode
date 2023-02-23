@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"steeringgearanglecalibration\startup_stm32f103xe.o"
+"steeringgearanglecalibration\main.o"
+"steeringgearanglecalibration\gpio.o"
+"steeringgearanglecalibration\dma.o"
+"steeringgearanglecalibration\tim.o"
+"steeringgearanglecalibration\usart.o"
+"steeringgearanglecalibration\stm32f1xx_it.o"
+"steeringgearanglecalibration\stm32f1xx_hal_msp.o"
+"steeringgearanglecalibration\stm32f1xx_hal_gpio_ex.o"
+"steeringgearanglecalibration\stm32f1xx_hal_tim.o"
+"steeringgearanglecalibration\stm32f1xx_hal_tim_ex.o"
+"steeringgearanglecalibration\stm32f1xx_hal.o"
+"steeringgearanglecalibration\stm32f1xx_hal_rcc.o"
+"steeringgearanglecalibration\stm32f1xx_hal_rcc_ex.o"
+"steeringgearanglecalibration\stm32f1xx_hal_gpio.o"
+"steeringgearanglecalibration\stm32f1xx_hal_dma.o"
+"steeringgearanglecalibration\stm32f1xx_hal_cortex.o"
+"steeringgearanglecalibration\stm32f1xx_hal_pwr.o"
+"steeringgearanglecalibration\stm32f1xx_hal_flash.o"
+"steeringgearanglecalibration\stm32f1xx_hal_flash_ex.o"
+"steeringgearanglecalibration\stm32f1xx_hal_exti.o"
+"steeringgearanglecalibration\stm32f1xx_hal_uart.o"
+"steeringgearanglecalibration\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Steeringgearanglecalibration\Steeringgearanglecalibration.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Steeringgearanglecalibration.map" -o Steeringgearanglecalibration\Steeringgearanglecalibration.axf
